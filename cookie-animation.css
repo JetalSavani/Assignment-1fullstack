@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700;900&family=Roboto:wght@100;400;500;700&family=Source+Sans+Pro:wght@200;400;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.box{
+    /* border: 1px solid blueviolet; */
+    padding: 20px 40px;
+    width:370px;
+    background-color:white;
+    border-radius: 8px;
+    margin: 60px auto;
+    /* background-color: #f2f2f2; */
+    color: black;
+    text-align: center;
+
+}
+.box-img{
+    width:170px;
+    height:110px;
+}
+.head{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 36px;
+    font-weight: 900;
+}
+.para{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(161, 159, 159);
+
+
+}
+.btn{
+    padding: 10px 16px ;
+    width: 190px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color:white;
+    background-color: rgb(160, 79, 72);
+}
+.btn:hover{
+    animation-name: cookie;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+
+}
+.box-img:hover{
+    animation-name: cookie;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes cookie{
+    from{}
+    to{
+            transform: rotate(360deg);
+
+            /* transform: scale(1.1); */
+            /* font-size: 30px;
+            width: 240px; */
+    }
+}

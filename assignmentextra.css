@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&400&900&family=Roboto:wght@100&display=swap');
+
+*{
+    /* margin:  15px 0px; */
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:  15px 0px;
+}
+
+.container{
+      /* display: flex; */
+      text-align: center;
+}
+
+.logo{ 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo-head{
+    font-weight: 900;
+}
+
+a{
+    text-decoration: none;
+}
+
+.flexbox{
+    display: flex;
+    justify-content:center;
+    
+    /* align-items: center; */
+    flex-wrap: wrap;
+    padding: 0;
+
+}
+.card{
+    border:1px solid lightgray;
+    border-radius: 6px;
+    color: black;
+    background-color: white;
+  
+    margin: 0 20px;
+    width: 420px;
+    height: auto;
+}
+.card-img1{
+    float: right;
+    margin-top: 54px;
+    height: 100px;
+    width: 100px;
+   
+}
+.card-head{
+    width: 65%;
+    font-size: 26px;
+}
+.card-para{
+    font-size: 16px;
+   padding-bottom: 10px;
+}
+
+.anchor{
+    /* margin-bottom: 25px; */
+    display:block;
+    /* margin-top: auto; */
+    align-items: center;
+    padding: 18px 20px;
+    /* margin-bottom: auto; */
+}
+.anchor:visited{
+    color: rgb(49, 90, 239);
+}
+.padding{
+    border-bottom: 1px solid lightgrey;
+    /* padding: 0;
+    margin: 0; */
+}
+.margin{
+    padding: 6px 20px;
+
+}
